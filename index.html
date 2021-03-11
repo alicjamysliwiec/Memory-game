@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a6cc70cdf9.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Memory game</title>
+</head>
+
+<body>
+  <div class="game">
+    <h1>
+      Hello!
+    </h1>
+    <div class="counter list-counter">
+      <ul class="list" id="list-of-items">
+        <li class="item" type="dice">
+          Dice
+        </li>
+        <li class="item" type="dragon">
+          Dragon
+        </li>
+        <li class="item" type="frog">
+          Frog
+        </li>
+        <li class="item" type="heart">
+          Heart
+        </li>
+        <li class="item" type="star">
+          Star
+        </li>
+        <li class="item" type="shirt">
+          Shirt
+        </li>
+        <li class="item" type="car">
+          Car
+        </li>
+        <li class="item" type="apple">
+          Apple
+        </li>
+      </ul>
+    </div>
+    <div class=" counter trial-counter">
+      Trials
+      <br />
+      0
+    </div>
+    <div class="counter success-counter">
+      Success
+      <br />
+      0
+    </div>
+    <div class="counter time-counter">
+      Time
+      <br />
+      0
+    </div>
+    <ul class="deck" id="card-deck">
+      <li class="card" type="dice">
+        <i class="fas fa-dice"></i>
+      </li>
+      <li class="card" type="dragon">
+        <i class="fas fa-dragon"></i>
+      </li>
+      <li class="card match" type="star">
+        <i class="fas fa-star"></i>
+      </li>
+      <li class="card" type="heart">
+        <i class="fas fa-heart"></i>
+      </li>
+      <li class="card" type="frog">
+        <i class="fas fa-frog"></i>
+      </li>
+      <li class="card match" type="star">
+        <i class="fas fa-star"></i>
+      </li>
+      <li class="card" type="car">
+        <i class="fas fa-car"></i>
+      </li>
+      <li class="card" type="apple">
+        <i class="fas fa-apple-alt"></i>
+      </li>
+      <li class="card" type="dice">
+        <i class="fas fa-dice"></i>
+      </li>
+      <li class="card" type="shirt">
+        <i class="fas fa-tshirt"></i>
+      </li>
+      <li class="card" type="car">
+        <i class="fas fa-car"></i>
+      </li>
+      <li class="card" type="shirt">
+        <i class="fas fa-tshirt"></i>
+      </li>
+      <li class="card open show" type="heart">
+        <i class="fas fa-heart"></i>
+      </li>
+      <li class="card" type="apple">
+        <i class="fas fa-apple-alt"></i>
+      </li>
+      <li class="card" type="dragon">
+        <i class="fas fa-dragon"></i>
+      </li>
+      <li class="card" type="frog">
+        <i class="fas fa-frog"></i>
+      </li>
+    </ul>
+
+    <div class="button">
+      <button class="start-game">
+        Again?
+      </button>
+    </div>
+    <div class="footer">
+      Coded by
+      <a href="https://www.linkedin.com/in/alicja-my%C5%9Bliwiec-b8b160201/" target="_blank" class="author">
+        <i>
+          Alicja Myśliwiec
+        </i>
+      </a>
+    </div>
+  </div>
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
